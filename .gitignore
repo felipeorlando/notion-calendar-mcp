@@ -1,0 +1,30 @@
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+credentials.json
+**/credentials.json
+!credentials.json.example
+**/notion-calendar.json
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

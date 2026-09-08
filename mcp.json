@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "notion-calendar": {
+      "type": "stdio",
+      "command": "./.venv/bin/python",
+      "args": ["${PLUGIN_ROOT}/server.py"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

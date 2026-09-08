@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "notion-calendar",
+  "version": "0.1.0",
+  "description": "Stdio MCP + skill for Notion Calendar (calendar-api.notion.so). Session JWT auth; title-first calendar tooling.",
+  "keywords": ["mcp", "notion", "calendar", "scheduling"]
+}
