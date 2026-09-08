@@ -1,0 +1,3 @@
+# mcp 2.x removed Server.list_tools decorator registration.
+# Pin the last 1.x line that still implements Server.list_tools (verified).
+mcp==1.29.1
